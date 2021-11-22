@@ -1,2 +1,2 @@
-# Sitfortam
-Aplikasi Web SitForTam (Sistem Informasi Tamu) - Kantor Gubernur Sulawesi Selatan
+# Rainbow7
+Aplikasinya Zul
