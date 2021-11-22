@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pengguna - Rainbow7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Admin Dashboard" name="description" />
+    <meta content="ThemeDesign" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="header-bg">
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container-fluid">
+
+                    <!-- Logo-->
+                    <div>
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo-dark.png" class="logo-lg" alt="" height="26">
+                            <img src="assets/images/logo-sm.png" class="logo-sm" alt="" height="28">
+                        </a>
+                    </div>
+                    <!-- End Logo-->
+
+                    <div class="menu-extras topbar-custom navbar p-0">
+                        <ul class="list-inline d-none d-lg-block mb-0">
+                            <li class="hide-phone app-search float-left">
+                                <form role="search" class="navbar-form">
+                                    <input type="text" placeholder="Search..." class="form-control search-bar">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                </form>
+                            </li>
+                        </ul>
+
+                        <ul class="mb-0 nav navbar-right ml-auto list-inline">
+                            <li class="list-inline-item dropdown notification-list">
+                                <a href="#" data-target="#"
+                                    class="dropdown-toggle waves-effect waves-light notification-icon-box"
+                                    data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-bell"></i> <span class="badge badge-xs badge-danger"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-lg">
+                                    <li class="text-center notifi-title">Notification <span
+                                            class="badge badge-xs badge-success">3</span></li>
+                                    <li class="list-group">
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item mt-2">
+                                            <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i>
+                                            </div>
+                                            <p class="notify-details">Your order is placed<span class="text-muted">Dummy
+                                                    text of the printing and typesetting industry.</span></p>
+                                        </a>
+                                        <!-- item-->
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i>
+                                            </div>
+                                            <p class="notify-details">Your item is shipped<span class="text-muted">It is
+                                                    a long established fact that a reader will</span></p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item mb-2">
+                                            <div class="notify-icon bg-danger"><i
+                                                    class="mdi mdi-message-text-outline"></i></div>
+                                            <p class="notify-details">New Message received<span class="text-muted">You
+                                                    have 87 unread messages</span></p>
+                                        </a>
+
+                                        <!-- last list item -->
+                                        <a href="javascript:void(0);" class="list-group-item text-center">
+                                            <small class="text-primary mb-0">View all </small>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="list-inline-item notification-list d-none d-sm-inline-block">
+                                <a href="#" id="btn-fullscreen"
+                                    class="waves-effect waves-light notification-icon-box"><i
+                                        class="fas fa-expand"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="" class="dropdown-toggle profile waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="true">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="user-img" class="rounded-circle">
+                                    <span class="profile-username">
+                                        Kenny <span class="mdi mdi-chevron-down font-15"></span>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)" class="dropdown-item"> Profile</a></li>
+                                    <li><a href="javascript:void(0)" class="dropdown-item"><span
+                                                class="badge badge-success float-right">5</span> Settings </a></li>
+                                    <li><a href="javascript:void(0)" class="dropdown-item"> Lock screen</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a href="javascript:void(0)" class="dropdown-item"> Logout</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item dropdown notification-list list-inline-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- end menu-extras -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+            <!-- MENU Start -->
+            <div class="navbar-custom">
+                <div class="container-fluid">
+
+                    <div id="navigation">
+
+                        <!-- Navigation Menu-->
+                        <ul class="navigation-menu">
+
+                            <li class="has-submenu">
+                                <a href="index.html"><i class="ti-home"></i> Dashboard</a>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="ti-user"></i> Akun <i
+                                        class="mdi mdi-chevron-down mdi-drop"></i></a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="#">Ubah profil</a></li>
+                                            <li><a href="#">Daftarkan pengguna baru</a></li>
+                                            <li><a href="#">Tingkatkan</a></li>
+                                            <li><a href="#">Ulangi pesanan</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="ti-agenda"></i> Transaksi <i
+                                        class="mdi mdi-chevron-down mdi-drop"></i></a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="#">Beli ePin</a></li>
+                                            <li><a href="#">Beli laporan</a></li>
+                                            <li><a href="#">Transfer ePin</a></li>
+                                            <li><a href="#">Transfer laporan ePin</a></li>
+                                            <li><a href="#">Periksa status ePin</a></li>
+                                            <li><a href="#">ePin terakhir</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="ti-gift"></i> Bonus <i
+                                        class="mdi mdi-chevron-down mdi-drop"></i></a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="#">Bonus harian</a></li>
+                                            <li><a href="#">Bonus bulanan</a></li>
+                                            <li><a href="#">Laporan bonus</a></li>
+                                            <li><a href="#">Hadiah PV</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="ti-bar-chart"></i> Laporan <i
+                                        class="mdi mdi-chevron-down mdi-drop"></i></a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="#">Silsilah</a></li>
+                                            <li><a href="#">Laporan performa jaringan</a></li>
+                                            <li><a href="#">Laporan pemasukan</a></li>
+                                            <li><a href="#">Laporan sponsor</a></li>
+                                            <li><a href="#">Laporan pembelian pribadi</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <!-- End navigation menu -->
+                    </div>
+                    <!-- end #navigation -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end navbar-custom -->
+        </header>
+        <!-- End Navigation Bar-->
+
+    </div>
+    <!-- header-bg -->
+
+    <div class="wrapper">
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <h4 class="page-title m-0">Dashboard</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                        <div class="card-heading p-4">
+                            <div>
+                                <input class="knob" data-width="80" data-height="80" data-linecap=round
+                                    data-fgColor="#fd8442" value="78" data-skin="tron" data-angleOffset="180"
+                                    data-readOnly=true data-thickness=".15" />
+                                <div class="float-right">
+                                    <h2 class="text-primary mb-0">8952</h2>
+                                    <p class="text-muted mb-0 mt-2">Total Sales</p>
+                                </div>
+                                <p class="mt-4 mb-0 text-muted"><b>78% </b>From Last 24 Hours <span
+                                        class="float-right"><i class="fa fa-caret-up m-r-5"></i>10.25%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                        <div class="card-heading p-4">
+                            <div>
+                                <input class="knob" data-width="80" data-height="80" data-linecap=round
+                                    data-fgColor="#bb96ea" value="62" data-skin="tron" data-angleOffset="180"
+                                    data-readOnly=true data-thickness=".15" />
+                                <div class="float-right">
+                                    <h2 class="text-purple mb-0">6521</h2>
+                                    <p class="text-muted mb-0 mt-2">New Orders</p>
+                                </div>
+                                <p class="mt-4 mb-0 text-muted"><b>62% </b>Orders Last 10 months<span
+                                        class="float-right"><i class="fa fa-caret-up m-r-5"></i>10.25%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                        <div class="card-heading p-4">
+                            <div>
+                                <input class="knob" data-width="80" data-height="80" data-linecap=round
+                                    data-fgColor="#fd8442" value="42" data-skin="tron" data-angleOffset="180"
+                                    data-readOnly=true data-thickness=".15" />
+                                <div class="float-right">
+                                    <h2 class="text-primary mb-0">4526</h2>
+                                    <p class="text-muted mb-0 mt-2">New Users</p>
+                                </div>
+                                <p class="mt-4 mb-0 text-muted"><b>42% </b>From Last 24 Hours <span
+                                        class="float-right"><i class="fa fa-caret-up m-r-5"></i>10.25%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <div class="card">
+                        <div class="card-heading p-4">
+                            <div>
+                                <input class="knob" data-width="80" data-height="80" data-linecap=round
+                                    data-fgColor="#bb96ea" value="25" data-skin="tron" data-angleOffset="180"
+                                    data-readOnly=true data-thickness=".15" />
+                                <div class="float-right">
+                                    <h2 class="text-purple mb-0">5621</h2>
+                                    <p class="text-muted mb-0 mt-2">Unique Visitors</p>
+                                </div>
+                                <p class="mt-4 mb-0 text-muted"><b>25% </b>From Last 1 Month <span
+                                        class="float-right"><i class="fa fa-caret-up m-r-5"></i>10.25%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-t-0 m-b-30">Multiple Statistics</h4>
+                            <div id="combine-chart-container" class="flot-chart" style="height: 360px"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-t-0 m-b-30">Realtime Statistics</h4>
+                            <div id="pie-chart-container" class="flot-chart" style="height: 360px"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end row -->
+
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-b-30 m-t-0">Messages</h4>
+                            <div class="inbox-widget slimscroller" style="max-height:360px;">
+
+                                <div class="media inbox-item">
+                                    <img class="mr-3 rounded-circle" src="assets/images/users/avatar-1.jpg"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Clinton Murphy</h5>
+                                        <p class="text-muted">Nullam id tincidunt ante on auctor lacus vivamus laoreet
+                                            pellentesque quam aliquam efficitur.</p>
+                                        <p class="inbox-item-time">5 mins ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="media inbox-item mt-3">
+                                    <img class="mr-3 rounded-circle" src="assets/images/users/avatar-2.jpg"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Frank Martinez</h5>
+                                        <p class="text-muted">Nullam id tincidunt ante on auctor lacus vivamus laoreet
+                                            pellentesque quam aliquam efficitur.</p>
+                                        <p class="inbox-item-time">6 mins ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="media inbox-item mt-3">
+                                    <img class="mr-3 rounded-circle" src="assets/images/users/avatar-3.jpg"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Patrick Dawson</h5>
+                                        <p class="text-muted">Nullam id tincidunt ante on auctor lacus vivamus laoreet
+                                            pellentesque quam aliquam efficitur.</p>
+                                        <p class="inbox-item-time">6 mins ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="media inbox-item mt-3">
+                                    <img class="mr-3 rounded-circle" src="assets/images/users/avatar-4.jpg"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Charles Young</h5>
+                                        <p class="text-muted">Nullam id tincidunt ante on auctor lacus vivamus laoreet
+                                            pellentesque quam aliquam efficitur.</p>
+                                        <p class="inbox-item-time">8 mins ago</p>
+                                    </div>
+                                </div>
+
+                                <div class="media inbox-item mt-3">
+                                    <img class="mr-3 rounded-circle" src="assets/images/users/avatar-5.jpg"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Joseph Yowell</h5>
+                                        <p class="text-muted">Nullam id tincidunt ante on auctor lacus vivamus laoreet
+                                            pellentesque quam aliquam efficitur.</p>
+                                        <p class="inbox-item-time">12 mins ago</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-b-30 m-t-0">Sales Statistics</h4>
+                            <h5>iMacs <span class="text-primary float-right"><b>78%</b></span></h5>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                    style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="78"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-b-30 m-t-0">Monthly Sales</h4>
+                            <h5>Macbooks <span class="text-purple float-right"><b>85%</b></span></h5>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar progress-bar-striped bg-purple" role="progressbar"
+                                    style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-b-30 m-t-0">Daily Sales</h4>
+                            <h5>Mobiles <span class="text-orange float-right"><b>45%</b></span></h5>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar progress-bar-striped bg-orange" role="progressbar"
+                                    style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="m-b-30 m-t-0">Monthly Earning</h4>
+
+                            <div id="website-stats" style="height: 200px" class="flot-chart"></div>
+
+                            <div class="row mt-4 pt-2">
+                                <div class="col-lg-6">
+                                    <div class="text-center pl-4 pr-4">
+                                        <h4 class="mb-0 text-primary">This Month</h4>
+                                        <p class="text-muted mt-2">It will be as simple fact it will be.</p>
+                                        <h4>$34,252 </h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="text-center pl-4 pr-4">
+                                        <h4 class="mb-0 text-primary">Last Month</h4>
+                                        <p class="text-muted mt-2">It will be as simple fact it will be.</p>
+                                        <h4>$36,253</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- end container-fluid -->
+    </div>
+    <!-- end wrapper -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    © 2019 - 2020 Hexzy <span class="d-none d-md-inline-block"> - Crafted with <i
+                            class="mdi mdi-heart text-danger"></i> by Themesdesign.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/fastclick.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/jquery.blockUI.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+    <!--Morris Chart-->
+    <script src="assets/plugins/morris/morris.min.js"></script>
+    <script src="assets/plugins/raphael/raphael.min.js"></script>
+
+    <!-- KNOB JS -->
+    <script src="assets/plugins/jquery-knob/excanvas.js"></script>
+    <script src="assets/plugins/jquery-knob/jquery.knob.js"></script>
+
+    <script src="assets/plugins/flot-chart/jquery.flot.min.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.resize.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.pie.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.selection.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.stack.js"></script>
+    <script src="assets/plugins/flot-chart/jquery.flot.crosshair.js"></script>
+
+    <script src="assets/pages/dashboard.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
