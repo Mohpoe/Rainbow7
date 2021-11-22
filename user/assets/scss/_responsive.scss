@@ -1,0 +1,82 @@
+/*
+Template Name: Hexzy - Bootstrap 4 Admin Dashboard
+File: Responsive
+*/
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-form {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .content-page {
+    margin-left: 0 !important;
+  }
+
+  .mobile-sidebar {
+    left: 0;
+  }
+
+  .mobile-content {
+    left: 250px;
+    right: -250px;
+  }
+
+  .wrapper-page {
+    width: 90%;
+  }
+
+  .navbar-nav {
+    .open {
+      .dropdown-menu {
+        background-color: $white;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+        left: auto;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+
+  .footer  {
+    left: 0 !important;
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  .logo {
+    margin-right: 20px !important;
+  }
+  .page-header-title {
+    text-align: center;
+    padding: 10px 15px 88px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .button-menu-mobile {
+    display: block;
+  }
+  .search-bar {
+    display: none !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .hide-phone {
+    display: none !important;
+  }
+}
